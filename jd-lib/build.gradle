@@ -1,0 +1,9 @@
+
+description = 'jd-lib'
+dependencies {
+    apply plugin: 'java'
+    compile group: 'org.slf4j', name: 'slf4j-api', version:'1.7.5'
+    compile group: 'jd', name: 'jd-core', version:'0.7.1'
+    compile group: 'jd', name: 'jd-common', version:'0.7.1'
+    compile group: 'jd', name: 'jd-common-ide', version:'0.7.1'
+}

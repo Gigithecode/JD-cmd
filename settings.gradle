@@ -1,0 +1,6 @@
+rootProject.name = 'jd-cmd'
+include ':jd-lib'
+include ':jd-cli'
+
+project(':jd-lib').projectDir = "$rootDir/jd-lib" as File
+project(':jd-cli').projectDir = "$rootDir/jd-cli" as File
